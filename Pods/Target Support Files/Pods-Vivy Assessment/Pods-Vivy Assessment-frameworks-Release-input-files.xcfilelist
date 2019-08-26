@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Vivy Assessment/Pods-Vivy Assessment-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DeepDiff/DeepDiff.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher-iOS12.0/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/SwifterUI/SwifterUI.framework

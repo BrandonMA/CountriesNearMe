@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		379DCA3155EEFC8A6B9352A1 /* Pods_Vivy_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423C0C1622E8BE2C00823AC3 /* Pods_Vivy_Assessment.framework */; };
+		4290144D22E8A5E8007F5C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290144C22E8A5E8007F5C0B /* AppDelegate.swift */; };
+		4290145422E8A5E9007F5C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4290145322E8A5E9007F5C0B /* Assets.xcassets */; };
+		4290145722E8A5E9007F5C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4290145522E8A5E9007F5C0B /* LaunchScreen.storyboard */; };
+		4290146D22E8A606007F5C0B /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290145F22E8A606007F5C0B /* ListViewCell.swift */; };
+		4290146E22E8A606007F5C0B /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290146022E8A606007F5C0B /* CountryView.swift */; };
+		4290146F22E8A606007F5C0B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290146222E8A606007F5C0B /* ListViewController.swift */; };
+		4290147022E8A606007F5C0B /* CountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290146322E8A606007F5C0B /* CountryController.swift */; };
+		4290147122E8A606007F5C0B /* CurrentCountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290146422E8A606007F5C0B /* CurrentCountryController.swift */; };
+		4290147222E8A606007F5C0B /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290146522E8A606007F5C0B /* MainTabController.swift */; };
+		42FB356222E8A727007F00C1 /* Vivy_Assessment_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FB356122E8A6D3007F00C1 /* Vivy_Assessment_Framework.framework */; };
+		42FB356922E8A7C0007F00C1 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FB356822E8A7C0007F00C1 /* NotificationCenter.framework */; };
+		42FB356C22E8A7C0007F00C1 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB356B22E8A7C0007F00C1 /* TodayViewController.swift */; };
+		42FB356F22E8A7C0007F00C1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FB356D22E8A7C0007F00C1 /* MainInterface.storyboard */; };
+		42FB357322E8A7C0007F00C1 /* Vivy Assessment Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 42FB356722E8A7C0007F00C1 /* Vivy Assessment Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42FB357822E8A7D4007F00C1 /* Vivy_Assessment_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FB356122E8A6D3007F00C1 /* Vivy_Assessment_Framework.framework */; };
+		9AF3D18B245110D64C8E7A6E /* Pods_Vivy_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD95D8900C74B8E771F302A /* Pods_Vivy_Assessment.framework */; };
+		C510A8A170E201216F6F63D4 /* Pods_Vivy_Assessment_Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F3A2264C9B947E65C7F683 /* Pods_Vivy_Assessment_Widget.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42FB356022E8A6D3007F00C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB355C22E8A6D3007F00C1 /* Vivy Assessment Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4290148322E8A674007F5C0B;
+			remoteInfo = "Vivy Assessment Framework";
+		};
+		42FB357122E8A7C0007F00C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4290144122E8A5E8007F5C0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FB356622E8A7C0007F00C1;
+			remoteInfo = "Vivy Assessment Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42FB357722E8A7C0007F00C1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				42FB357322E8A7C0007F00C1 /* Vivy Assessment Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0153F6BCAE732E13F508D22D /* Pods-Vivy Assessment Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivy Assessment Widget.release.xcconfig"; path = "Target Support Files/Pods-Vivy Assessment Widget/Pods-Vivy Assessment Widget.release.xcconfig"; sourceTree = "<group>"; };
+		10EFE860425215ED71ED1BFB /* Pods-Vivy Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivy Assessment.release.xcconfig"; path = "Target Support Files/Pods-Vivy Assessment/Pods-Vivy Assessment.release.xcconfig"; sourceTree = "<group>"; };
+		423C0C1322E8BDF900823AC3 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		423C0C1622E8BE2C00823AC3 /* Pods_Vivy_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Vivy_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4290144922E8A5E8007F5C0B /* Vivy Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vivy Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4290144C22E8A5E8007F5C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4290145322E8A5E9007F5C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4290145622E8A5E9007F5C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4290145822E8A5E9007F5C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4290145F22E8A606007F5C0B /* ListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		4290146022E8A606007F5C0B /* CountryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		4290146222E8A606007F5C0B /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		4290146322E8A606007F5C0B /* CountryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryController.swift; sourceTree = "<group>"; };
+		4290146422E8A606007F5C0B /* CurrentCountryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentCountryController.swift; sourceTree = "<group>"; };
+		4290146522E8A606007F5C0B /* MainTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		42FB355C22E8A6D3007F00C1 /* Vivy Assessment Framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Vivy Assessment Framework.xcodeproj"; path = "Vivy Assessment Framework/Vivy Assessment Framework.xcodeproj"; sourceTree = "<group>"; };
+		42FB356722E8A7C0007F00C1 /* Vivy Assessment Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Vivy Assessment Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FB356822E8A7C0007F00C1 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		42FB356B22E8A7C0007F00C1 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		42FB356E22E8A7C0007F00C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		42FB357022E8A7C0007F00C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF58EA719130A250A1638B7 /* Pods-Vivy Assessment Widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivy Assessment Widget.debug.xcconfig"; path = "Target Support Files/Pods-Vivy Assessment Widget/Pods-Vivy Assessment Widget.debug.xcconfig"; sourceTree = "<group>"; };
+		ADD95D8900C74B8E771F302A /* Pods_Vivy_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vivy_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66C23F4083EFEC207725508 /* Pods-Vivy Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivy Assessment.debug.xcconfig"; path = "Target Support Files/Pods-Vivy Assessment/Pods-Vivy Assessment.debug.xcconfig"; sourceTree = "<group>"; };
+		D1F3A2264C9B947E65C7F683 /* Pods_Vivy_Assessment_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vivy_Assessment_Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4290144622E8A5E8007F5C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FB356222E8A727007F00C1 /* Vivy_Assessment_Framework.framework in Frameworks */,
+				9AF3D18B245110D64C8E7A6E /* Pods_Vivy_Assessment.framework in Frameworks */,
+				379DCA3155EEFC8A6B9352A1 /* Pods_Vivy_Assessment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FB356422E8A7C0007F00C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FB357822E8A7D4007F00C1 /* Vivy_Assessment_Framework.framework in Frameworks */,
+				42FB356922E8A7C0007F00C1 /* NotificationCenter.framework in Frameworks */,
+				C510A8A170E201216F6F63D4 /* Pods_Vivy_Assessment_Widget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C6AF2DE29BE3D76D826C253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				423C0C1622E8BE2C00823AC3 /* Pods_Vivy_Assessment.framework */,
+				423C0C1322E8BDF900823AC3 /* Kingfisher.framework */,
+				ADD95D8900C74B8E771F302A /* Pods_Vivy_Assessment.framework */,
+				42FB356822E8A7C0007F00C1 /* NotificationCenter.framework */,
+				D1F3A2264C9B947E65C7F683 /* Pods_Vivy_Assessment_Widget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4290144022E8A5E8007F5C0B = {
+			isa = PBXGroup;
+			children = (
+				42FB355C22E8A6D3007F00C1 /* Vivy Assessment Framework.xcodeproj */,
+				4290144B22E8A5E8007F5C0B /* Vivy Assessment */,
+				42FB356A22E8A7C0007F00C1 /* Vivy Assessment Widget */,
+				4290144A22E8A5E8007F5C0B /* Products */,
+				44BFB34CE098EB440CFBFEC9 /* Pods */,
+				2C6AF2DE29BE3D76D826C253 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4290144A22E8A5E8007F5C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4290144922E8A5E8007F5C0B /* Vivy Assessment.app */,
+				42FB356722E8A7C0007F00C1 /* Vivy Assessment Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4290144B22E8A5E8007F5C0B /* Vivy Assessment */ = {
+			isa = PBXGroup;
+			children = (
+				4290144C22E8A5E8007F5C0B /* AppDelegate.swift */,
+				4290146122E8A606007F5C0B /* Controllers */,
+				4290145E22E8A606007F5C0B /* Views */,
+				4290145322E8A5E9007F5C0B /* Assets.xcassets */,
+				4290145522E8A5E9007F5C0B /* LaunchScreen.storyboard */,
+				4290145822E8A5E9007F5C0B /* Info.plist */,
+			);
+			path = "Vivy Assessment";
+			sourceTree = "<group>";
+		};
+		4290145E22E8A606007F5C0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4290145F22E8A606007F5C0B /* ListViewCell.swift */,
+				4290146022E8A606007F5C0B /* CountryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4290146122E8A606007F5C0B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4290146222E8A606007F5C0B /* ListViewController.swift */,
+				4290146322E8A606007F5C0B /* CountryController.swift */,
+				4290146422E8A606007F5C0B /* CurrentCountryController.swift */,
+				4290146522E8A606007F5C0B /* MainTabController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		42FB355D22E8A6D3007F00C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FB356122E8A6D3007F00C1 /* Vivy_Assessment_Framework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FB356A22E8A7C0007F00C1 /* Vivy Assessment Widget */ = {
+			isa = PBXGroup;
+			children = (
+				42FB356B22E8A7C0007F00C1 /* TodayViewController.swift */,
+				42FB356D22E8A7C0007F00C1 /* MainInterface.storyboard */,
+				42FB357022E8A7C0007F00C1 /* Info.plist */,
+			);
+			path = "Vivy Assessment Widget";
+			sourceTree = "<group>";
+		};
+		44BFB34CE098EB440CFBFEC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C66C23F4083EFEC207725508 /* Pods-Vivy Assessment.debug.xcconfig */,
+				10EFE860425215ED71ED1BFB /* Pods-Vivy Assessment.release.xcconfig */,
+				8BF58EA719130A250A1638B7 /* Pods-Vivy Assessment Widget.debug.xcconfig */,
+				0153F6BCAE732E13F508D22D /* Pods-Vivy Assessment Widget.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4290144822E8A5E8007F5C0B /* Vivy Assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4290145B22E8A5E9007F5C0B /* Build configuration list for PBXNativeTarget "Vivy Assessment" */;
+			buildPhases = (
+				85B610A788F182EE7E376F7C /* [CP] Check Pods Manifest.lock */,
+				4290144522E8A5E8007F5C0B /* Sources */,
+				4290144622E8A5E8007F5C0B /* Frameworks */,
+				4290144722E8A5E8007F5C0B /* Resources */,
+				AD5149F16F11D01C4E2ACB98 /* [CP] Embed Pods Frameworks */,
+				42FB357722E8A7C0007F00C1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42FB357222E8A7C0007F00C1 /* PBXTargetDependency */,
+			);
+			name = "Vivy Assessment";
+			productName = "Vivy Assessment";
+			productReference = 4290144922E8A5E8007F5C0B /* Vivy Assessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42FB356622E8A7C0007F00C1 /* Vivy Assessment Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FB357422E8A7C0007F00C1 /* Build configuration list for PBXNativeTarget "Vivy Assessment Widget" */;
+			buildPhases = (
+				7DC63A2F2B8A3F293E172E7A /* [CP] Check Pods Manifest.lock */,
+				42FB356322E8A7C0007F00C1 /* Sources */,
+				42FB356422E8A7C0007F00C1 /* Frameworks */,
+				42FB356522E8A7C0007F00C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vivy Assessment Widget";
+			productName = "Vivy Assessment Widget";
+			productReference = 42FB356722E8A7C0007F00C1 /* Vivy Assessment Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4290144122E8A5E8007F5C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "brandon maldonado alonso";
+				TargetAttributes = {
+					4290144822E8A5E8007F5C0B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					42FB356622E8A7C0007F00C1 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 4290144422E8A5E8007F5C0B /* Build configuration list for PBXProject "Vivy Assessment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4290144022E8A5E8007F5C0B;
+			productRefGroup = 4290144A22E8A5E8007F5C0B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 42FB355D22E8A6D3007F00C1 /* Products */;
+					ProjectRef = 42FB355C22E8A6D3007F00C1 /* Vivy Assessment Framework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4290144822E8A5E8007F5C0B /* Vivy Assessment */,
+				42FB356622E8A7C0007F00C1 /* Vivy Assessment Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		42FB356122E8A6D3007F00C1 /* Vivy_Assessment_Framework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Vivy_Assessment_Framework.framework;
+			remoteRef = 42FB356022E8A6D3007F00C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4290144722E8A5E8007F5C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4290145722E8A5E9007F5C0B /* LaunchScreen.storyboard in Resources */,
+				4290145422E8A5E9007F5C0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FB356522E8A7C0007F00C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FB356F22E8A7C0007F00C1 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DC63A2F2B8A3F293E172E7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vivy Assessment Widget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85B610A788F182EE7E376F7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vivy Assessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD5149F16F11D01C4E2ACB98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vivy Assessment/Pods-Vivy Assessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vivy Assessment/Pods-Vivy Assessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vivy Assessment/Pods-Vivy Assessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4290144522E8A5E8007F5C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4290146E22E8A606007F5C0B /* CountryView.swift in Sources */,
+				4290146D22E8A606007F5C0B /* ListViewCell.swift in Sources */,
+				4290147222E8A606007F5C0B /* MainTabController.swift in Sources */,
+				4290147122E8A606007F5C0B /* CurrentCountryController.swift in Sources */,
+				4290147022E8A606007F5C0B /* CountryController.swift in Sources */,
+				4290146F22E8A606007F5C0B /* ListViewController.swift in Sources */,
+				4290144D22E8A5E8007F5C0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FB356322E8A7C0007F00C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FB356C22E8A7C0007F00C1 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42FB357222E8A7C0007F00C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42FB356622E8A7C0007F00C1 /* Vivy Assessment Widget */;
+			targetProxy = 42FB357122E8A7C0007F00C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4290145522E8A5E9007F5C0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4290145622E8A5E9007F5C0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		42FB356D22E8A7C0007F00C1 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FB356E22E8A7C0007F00C1 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4290145922E8A5E9007F5C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4290145A22E8A5E9007F5C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4290145C22E8A5E9007F5C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66C23F4083EFEC207725508 /* Pods-Vivy Assessment.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568XT5M7M2;
+				INFOPLIST_FILE = "Vivy Assessment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon.Vivy-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4290145D22E8A5E9007F5C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10EFE860425215ED71ED1BFB /* Pods-Vivy Assessment.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568XT5M7M2;
+				INFOPLIST_FILE = "Vivy Assessment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon.Vivy-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42FB357522E8A7C0007F00C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF58EA719130A250A1638B7 /* Pods-Vivy Assessment Widget.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568XT5M7M2;
+				INFOPLIST_FILE = "Vivy Assessment Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon.Vivy-Assessment.Vivy-Assessment-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42FB357622E8A7C0007F00C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0153F6BCAE732E13F508D22D /* Pods-Vivy Assessment Widget.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568XT5M7M2;
+				INFOPLIST_FILE = "Vivy Assessment Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon.Vivy-Assessment.Vivy-Assessment-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4290144422E8A5E8007F5C0B /* Build configuration list for PBXProject "Vivy Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4290145922E8A5E9007F5C0B /* Debug */,
+				4290145A22E8A5E9007F5C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4290145B22E8A5E9007F5C0B /* Build configuration list for PBXNativeTarget "Vivy Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4290145C22E8A5E9007F5C0B /* Debug */,
+				4290145D22E8A5E9007F5C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FB357422E8A7C0007F00C1 /* Build configuration list for PBXNativeTarget "Vivy Assessment Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FB357522E8A7C0007F00C1 /* Debug */,
+				42FB357622E8A7C0007F00C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4290144122E8A5E8007F5C0B /* Project object */;
+}

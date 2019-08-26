@@ -1,0 +1,24 @@
+PODS:
+  - DeepDiff (2.2.0)
+  - Kingfisher (5.5.0)
+  - SwifterUI/Core (0.9.2):
+    - DeepDiff
+
+DEPENDENCIES:
+  - Kingfisher
+  - SwifterUI/Core
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DeepDiff
+    - Kingfisher
+    - SwifterUI
+
+SPEC CHECKSUMS:
+  DeepDiff: e329bc46dd14ca788d8ec08d34420799ba1d77f2
+  Kingfisher: 6fe5e67a90fd335e49b0f5c075ff55ac5ebedd94
+  SwifterUI: db2235ab4578e1d3aea94e4a47568edd8217e587
+
+PODFILE CHECKSUM: 87a1e31caf827ec0e060447582322947651fbdf4
+
+COCOAPODS: 1.7.5

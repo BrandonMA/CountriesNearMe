@@ -1,0 +1,1 @@
+Small assessment assigned by a company called Vivy a few months ago when I applied for an internship, it basically looks for your current country, and countries near you. It shows them on a table view sorted by the nearest.

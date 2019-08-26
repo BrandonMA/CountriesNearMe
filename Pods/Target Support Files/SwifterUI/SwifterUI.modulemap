@@ -1,0 +1,6 @@
+framework module SwifterUI {
+  umbrella header "SwifterUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
